@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #b30101;
+    --gradient-btn1: #d86a6a;
+    --gradient-btn2: #eb6161;
+    --gradient-btn3: #e64343;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    transition: background-color 0.3s ease;
+    /* Smooth transition when background color changes */
+}
+
+/* header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+/* background-color: rgba(255, 255, 255, 0.671); /* Background color of your choice */
+/* opacity: 0.5; Adjust the opacity here */
+*/
+
+/* z-index: -1; Ensure this is behind the content */
+/* } */
+header.scrolled {
+    background-color: white;
+}
+
+.logo {
+    width: 250px;
+    padding-left: 10px;
+    height: 35px;
+}
+
+#menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+    color: black !important;
+    font-size: large;
+}
+.navbar-nav .nav-link:hover {
+   color: var(--primary-color) !important;
+   font-weight: bold;
+}
+
+.offcanvas .navbar-nav .nav-link:hover {
+    background-color: var(--primary-color);
+    font-weight: bold;
+    color: #fff !important;
+    padding-left: 10px;
+}
+
+.offcanvas-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.offcanvas-body {
+    padding: 20px;
+}
+
+.offcanvas {
+    max-width: fit-content;
+}
+
+.offcanvas-body .nav-item .nav-link {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #111;
+}
+
+.offcanvas-body .nav-item .nav-link:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.dropdown .collapse ul.navbar-nav {
+    margin-top: 10px;
+}
+
+.dropdown .collapse ul.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #111;
+}
+
+.dropdown .collapse ul.navbar-nav .nav-link:hover {
+    background-color: rgb(245, 245, 245);
+    color: #111;
+    border-radius: 5px;
+}
+
+.ms-3 {
+    margin-left: 1rem !important;
+}
+
+/* .................footer section Css Starts......... */
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+
+}
+
+footer .link-hover {
+    color: #fff;
+}
+
+footer .link-hover:hover {
+    /* color: #00bd2a !important; */
+    font-weight: bold;
+    color: #000;
+}
+
+footer h5 {
+    color: #fff;
+}
+
+footer img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+}
+
+/* Add a media query for tablet screens (e.g., 768px and below) */
+@media only screen and (max-width: 768px) {
+    footer img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li i {
+    width: 20px;
+}
+
+.list-inline-item a {
+    color: #fff;
+}
+
+.list-inline-item a:hover {
+    color: #000;
+}
+footer hr{
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+/* .................footer section Css End......... */
