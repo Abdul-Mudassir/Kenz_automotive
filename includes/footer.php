@@ -56,7 +56,7 @@
                 <h5 class="fw-bold">Contact Us</h5>
                 <ul class="list-unstyled">
                     <li><i class="fa fa-building"></i>Hyderabad, India</li>
-                    <li><i class="fa fa-phone"></i>+91 9391 498886</li>
+                    <li><i class="fa fa-phone"></i>+91 70930 19099</li>
                     <li><i class="fa fa-envelope"></i>info@kenzautomotive.com</li>
                 </ul>
             </div>

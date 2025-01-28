@@ -404,7 +404,7 @@
                         </li>
                         <li>
                             <i class="fa fa-whatsapp"></i>
-                            <a href="tel:+919391498886" class=" fw-bold">+91 93914 98886</a>
+                            <a href="tel:+917093019099" class=" fw-bold">+91 70930 19099</a>
                         </li>
                         <li>
                             <i class="fa fa-skype"></i>
@@ -427,8 +427,8 @@
     <!-- Contact Us Section Ends-->
 
     <!-- Call BUtton Start -->
-    <div class="call-buton"><a class="cc-calto-action-ripple" href="tel:+919391498886"><i class="fa fa-car"></i><span
-                class="num fw-bold">+91 9391498886</span>
+    <div class="call-buton"><a class="cc-calto-action-ripple" href="tel:+917093019099"><i class="fa fa-car"></i><span
+                class="num fw-bold">+91 7093019099</span>
         </a>
     </div>
     <!-- Call BUtton End -->
